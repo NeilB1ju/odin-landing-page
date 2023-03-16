@@ -56,7 +56,6 @@
     flex-direction: column;
     justify-content: flex-start;
     gap: 10px;
-    
 }
 
 .hero-image-div{
@@ -64,12 +63,12 @@
 }
 
 .hero-image{
-    width: 80%;
+    width: 100%;
     height: auto;
 } 
 
 .hero-main-text{
-    font-size: 48px;
+    font-size: 44px;
     font-weight: 800;
 }
 
@@ -86,3 +85,44 @@
     border-style: none;
     border-radius: 5px;
 }
+
+
+/* Information Section */
+
+.information-section{
+    padding-top: 20px;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    gap:30px;
+}
+
+.information-text{ 
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.information-images{
+    display:flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.information-box{
+    width:150px;
+    height:150px;
+    border-radius: 5px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #3882F6;
+}
+
+.information-text-box{
+    max-width: 150px;
+    padding: 5px 5px 20px 5px;
+}
+
+
+/* Quotation Section */
