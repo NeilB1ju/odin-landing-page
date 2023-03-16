@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', arial;
 }
 
 
@@ -121,8 +122,31 @@
 
 .information-text-box{
     max-width: 150px;
-    padding: 5px 5px 20px 5px;
+    padding: 5px 5px 50px 5px;
 }
 
 
 /* Quotation Section */
+
+.quotation-section{
+    display:flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 5% 10% 5% 10%;
+    gap:20px;
+}
+
+.quote{
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.quote-person{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+}
+
+
+/* Call to Action Section */
